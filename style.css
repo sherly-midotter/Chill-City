@@ -1,3 +1,14 @@
+/* import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@800&display=swap');
+
+
+/* styling for everything in the body */
+body {
+    /* background-color: ; */
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+/* styling for the text on the bottom "made with love" */
 .made-with-love {
     position: fixed;
     bottom: 0;
@@ -5,4 +16,14 @@
     transform: translateX(-50%);
     text-align: center;
   }
-  
+
+.underConstruction {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 50px;
+    font-weight: 800;
+    color: #000;
+  }
