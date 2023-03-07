@@ -4,7 +4,7 @@
 
 /* styling for everything in the body */
 body {
-    background-color: #4e28c0;
+    background-image: linear-gradient(to bottom right, #4e28c0,#BB09BC);
     font-family: 'Nunito Sans', sans-serif;
     color: white;
 }
