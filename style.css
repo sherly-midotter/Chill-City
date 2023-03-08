@@ -1,10 +1,16 @@
 /* import fonts */
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@800&display=swap');
 
+html {
+    background-image: linear-gradient(to bottom right, #4e28c0,#BB09BC);
+    height: 100%; /* ensures that the gradient fills the entire page */
+
+}
 
 /* styling for everything in the body */
 body {
-    background-image: linear-gradient(to bottom right, #4e28c0,#BB09BC);
+    height: 100%; /* ensures that the body fills the entire page */
+    margin: 0; /* removes any margin or padding around the body */  
     font-family: 'Nunito Sans', sans-serif;
     color: white;
 }
