@@ -3,7 +3,10 @@ const words = [
     'noms',
     'lilbro',
     'shuk',
-    'pdash'
+    'pdash',
+    'nerty',
+    'sherly',
+    'jawnnn'
 ];
 
 let word = "";
