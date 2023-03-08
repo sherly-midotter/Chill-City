@@ -1,7 +1,7 @@
 // Define variables
 const words = [
     'noms',
-    'lil bro',
+    'lilbro',
     'shuk',
     'pdash'
 ];
