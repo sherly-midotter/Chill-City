@@ -25,6 +25,7 @@ body {
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
+    color: white;
   }
 
 .underConstruction {
@@ -89,3 +90,14 @@ button {
     cursor: pointer;
     margin-top: 90px;
   }
+
+
+.login-headline {
+    text-align: center;
+    padding-top: 30px;
+}
+
+div.login {
+    background-color: white;
+    
+}

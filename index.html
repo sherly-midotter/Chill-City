@@ -12,16 +12,102 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="manifest" href="/site.webmanifest">
     <link rel="stylesheet" href="style.css">
-    <title>chill city</title>
+    <title>login | chill city</title>
 </head>
 <body>
 
 
 
-<div class="underConstruction animate__animated animate__fadeIn">under construction</div>
 
 
-<p class="made-with-love animate__animated">made with &hearts; by sherly and lil bro</p>
-    
+<style>
+    /* Center the login form vertically and horizontally */
+    html, body {
+        height: 100%;
+        color: #7322BF;
+    }
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login {
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+form {
+  display: inline-block;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type=password] {
+  padding: 10px;
+  border-radius: 3px;
+  width: 100%;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  border: 2px solid #A314BD;
+  border-radius: 4px;
+}
+
+input[type=submit] {
+  background: #7322BF;
+  color: white;
+  border-radius: 8px;
+  border: none;
+}
+</style>
+
+<div class="center">
+    <div class="login">
+      <h1>Login Screen</h1>
+      <form id="password-form">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <input type="submit" value="Login">
+      </form>
+    </div>
+  </div>
+  
+  <script>
+    const passwordForm = document.getElementById('password-form');
+    const passwordInput = document.getElementById('password');
+  
+    passwordForm.addEventListener('submit', function(event) {
+      event.preventDefault();
+  
+      const password = passwordInput.value;
+  
+      if (password === 'shukyou') {
+        // Correct password. Show the website.
+        window.location.href = 'sjrtyzh.html';
+      } else {
+        // Incorrect password. Show an error message.
+        alert('Incorrect password. Please try again.');
+      }
+    });
+  </script>
+  
+
 </body>
 </html>
