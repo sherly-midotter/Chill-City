@@ -6,7 +6,6 @@
 html {
     background-image: linear-gradient(to bottom right, #4e28c0,#BB09BC);
     height: 100%; /* ensures that the gradient fills the entire page */
-
 }
 
 /* styling for everything in the body */
@@ -28,6 +27,7 @@ body {
     color: white;
   }
 
+/* styling for the text under construction */
 .underConstruction {
     position: fixed;
     top: 50%;
@@ -36,9 +36,11 @@ body {
     text-align: center;
     font-size: 50px;
     font-weight: 800;
-
+    color: white;
   }
 
+
+/* styling for the text game */
   .container {
     max-width: 600px;
     margin: 0 auto;
@@ -91,13 +93,58 @@ button {
     margin-top: 90px;
   }
 
-
-.login-headline {
-    text-align: center;
-    padding-top: 30px;
+/* styling for the login */
+html, body {
+  height: 100%;
+  color: #7322BF;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.center {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
 }
 
-div.login {
-    background-color: white;
-    
+.login {
+background: #fff;
+border-radius: 5px;
+box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+padding: 20px;
+text-align: center;
+}
+
+.login-headline {
+margin-top: 0;
+}
+
+form {
+display: inline-block;
+text-align: left;
+}
+
+label {
+display: block;
+margin-bottom: 10px;
+}
+
+input[type=password] {
+padding: 10px;
+border-radius: 3px;
+width: 100%;
+margin-bottom: 20px;
+box-sizing: border-box;
+border: 2px solid #A314BD;
+border-radius: 4px;
+}
+
+input[type=submit] {
+background: #7322BF;
+color: white;
+border-radius: 8px;
+border: none;
 }
